@@ -125,11 +125,11 @@
  }
  .modo-dark input{
      background-color: #fff;
-     color: #fff;
+     color: #000;
  }  
  .modo-dark textarea, .modo-dark select{
      background-color: #fff;
-     color: #fff;
+     color: #000;
  }
  .modo-dark .fuente-select{
      background-color: #fff;
