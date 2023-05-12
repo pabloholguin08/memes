@@ -23,3 +23,5 @@ funciones para realizar:
 
 *Profe ayuda mis compañeros tienen master en vez de main
 *Estoy funcionando en la rama daniel
+
+* Proyecyo Terminado
