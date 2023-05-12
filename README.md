@@ -20,3 +20,5 @@ funciones para realizar:
 
 5. funcionamiento del boton descargar
 6. al momento de descargar que me muestre el archivo de descarga con el nombre "mi-meme.png" (ya sea que se descargue en png o jpg)
+
+*Estoy funcionando en la rama daniel
