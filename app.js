@@ -111,6 +111,43 @@ mezcla.addEventListener('change', actualizarTipoMezcla);
 //      INPUT TEXTO CAJA MEME | CHECKBOX CAJA MEME////
 // *******************************************************
 
+const inputTopText = document.getElementById('inputTop');
+const topTextMeme = document.getElementById('textoTop');
+
+const inputBottomText = document.getElementById('inputBottom');
+const bottomTextMeme = document.getElementById('textoInf');
+
+
+inputTopText.addEventListener("input", function(){
+    topTextMeme.innerText = inputTopText.value
+});
+
+inputBottomText.addEventListener("input", function(){
+    bottomTextMeme.innerText = inputBottomText.value
+});
+
+
+const chkTop = document.getElementById('not-top');
+const chkBottom = document.getElementById('not-button');
+
+
+
+    chkTop.addEventListener("change", function() {
+    if (chkTop.checked) {
+        topTextMeme.style.display = "none";
+    } else {
+        topTextMeme.style.display = "block";
+    }
+  });
+
+  
+    chkBottom.addEventListener("change", function() {
+    if (chkBottom.checked) {
+        bottomTextMeme.style.display = "none";
+    } else {
+        bottomTextMeme.style.display = "block";
+    }
+  });
 
 // *******************************************************************
 //      CAMBIO TIPO DE FUENTE
