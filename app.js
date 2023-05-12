@@ -21,6 +21,17 @@ const imagen = document.getElementById('caja-imagen');
 //     });
 // });
 
+const meme = document.getElementById('caja-meme')
+const btnDescargar = document.getElementById('button-descarga')
+
+btnDescargar.addEventListener('click',()=>{
+    domtoimage.toBlob(meme)
+    .then(function (blob) {
+        window.saveAs(blob, 'mi-meme.png');
+    });
+})
+
+
 
 
 
