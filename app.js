@@ -1,3 +1,4 @@
+const imagen = document.getElementById('caja-imagen');
 // ********************************************
 //      MODO CLARO | MODO OSCURO        
 // ********************************************
@@ -7,6 +8,20 @@
 //*****************************************************************
 //                  BOTON DESCARGA MEME 
 // *****************************************************************
+// const btnDescargar = document.getElementById('button-descarga');
+// const imagenMain = document.getElementById('caja-meme');
+// btnDescargar.addEventListener("click", function(){
+//     
+//     html2canvas(imagenMain).then(function(canvas){
+//         let img = canvas.toDataURL(image/png);
+//         let link = document.createElement("a");
+//         link.download = "mi-meme.png";
+//         link.href=img;
+//         link.click();
+//     });
+// });
+
+
 
 
 // ********************************************************
@@ -36,6 +51,16 @@ btnPanelCierre.addEventListener('click', () =>{
 // **********************************
 //         URL INPUT- IMAGEN
 // **********************************
+
+/*function cambiarImagen(){
+    let imagenURL = document.getElementById("url-img").value;
+    document.getElementById("imagenMeme").src=imagenURL;
+
+}*/
+const urlImg = document.getElementById('url-img');
+urlImg.addEventListener('input',()=>{
+    imagen.style = `background-image: url(${urlImg.value})`;
+});
 
 
 // ***************************
