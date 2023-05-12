@@ -90,6 +90,91 @@
     color:#fff;
 }
 
+/* *******************************************************
+            *CAMBIAR A MODO OSCURO*
+***************************************************** */
+
+.modo-dark{
+    background-color: #4b1b72;
+    background-image: url('./imagenes/dark.jpg');
+     
+ }
+ .modo-dark .header{
+     background-color:#1c093b;
+ }
+ .modo-dark h1, h2, h3{
+     color: #ffffff;
+     font-weight: 700;
+     font-size: 1.8em;
+ }
+ .modo-dark .button-nav{
+     background-color: #4b1b72;
+ }
+ .modo-dark .contenedor-gral{
+     background-image: url('./imagenes/dark.jpg');
+     background-size:cover;
+     background-repeat: no-repeat;
+ 
+ } 
+ .modo-dark .caja-meme{
+     border: 1px solid #1c093b;
+     box-shadow: -10px 10px 100px 5px rgb(0 0 0 / 30%);
+ }
+ .modo-dark .columna-cambios{
+     background-color: #1c093b;
+ }
+ .modo-dark input{
+     background-color: #fff;
+     color: #fff;
+ }  
+ .modo-dark textarea, .modo-dark select{
+     background-color: #fff;
+     color: #fff;
+ }
+ .modo-dark .fuente-select{
+     background-color: #fff;
+ }
+ .modo-dark .btn-color{
+     background-color: #fff;
+     color: #371075;
+     font-weight: 600;
+ }
+ .modo-dark .control-checkbox{
+     color: #fff;
+     font-weight: 500;
+ }
+ .modo-dark .button-nav:hover{
+     background-color: #574479;
+ }
+ .modo-dark textarea:hover{
+     background-color: #574479;
+     color:#fff;
+ }
+ .modo-dark select:hover{
+     background-color: #574479;
+     color:#fff;
+ }
+ .modo-dark .fuente-select:hover{
+     background-color: #574479;
+     color:#fff;
+ }
+ .modo-dark .btn-color:hover{
+     background-color:#574479;
+     color: #fff;
+ }
+ .modo-dark .input-color:hover{
+     background-color: #9c70e2;
+     color: #fff;
+     font-weight: 500;
+ }
+ .modo-dark .panel-control-input:hover{
+     background-color: #574479;
+     color:#fff;
+ }
+ .modo-dark .control-input:hover{
+     background-color: #574479;
+     color:#fff;
+ }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++
             HEADER
 ++++++++++++++++++++++++++++++++++++++++++++++++++++ */

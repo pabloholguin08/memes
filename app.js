@@ -3,8 +3,15 @@ const imagen = document.getElementById('caja-imagen');
 //      MODO CLARO | MODO OSCURO        
 // ********************************************
 
-
-
+const btnTema = document.getElementById('button-modo-dark');
+const body = document.body;
+btnTema.addEventListener('click', () => {
+    if(body.classList.contains('modo-light')){
+        body.classList.toggle('modo-dark')
+    }else{
+        body.classList.toggle('modo-light')
+    }
+})
 //*****************************************************************
 //                  BOTON DESCARGA MEME 
 // *****************************************************************
