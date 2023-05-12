@@ -22,3 +22,4 @@ funciones para realizar:
 6. al momento de descargar que me muestre el archivo de descarga con el nombre "mi-meme.png" (ya sea que se descargue en png o jpg)
 
 *Profe ayuda mis compañeros tienen master en vez de main
+*Estoy funcionando en la rama daniel
