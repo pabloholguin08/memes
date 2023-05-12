@@ -24,7 +24,7 @@ btnTema.addEventListener('click', () => {
 //         let link = document.createElement("a");
 //         link.download = "mi-meme.png";
 //         link.href=img;
-//         link.click();
+//         link.click();s
 //     });
 // });
 
